@@ -9,6 +9,7 @@ import Context from "./components/Context/Context";
 import ForwardRef from "./components/ForwardRef/ForwardRef";
 import ImageLoading from "./components/ImageLoading";
 import Keys from "./components/Keys";
+import Portals from "./components/Portals";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
       {/* <ForwardRef /> */}
       {/* <ImageLoading /> */}
       {/* <Keys /> */}
+      <Portals />
     </>
   );
 }
