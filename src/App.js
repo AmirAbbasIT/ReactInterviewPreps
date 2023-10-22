@@ -8,6 +8,7 @@ import CounterProvider from "./components/Context/Provider";
 import Context from "./components/Context/Context";
 import ForwardRef from "./components/ForwardRef/ForwardRef";
 import ImageLoading from "./components/ImageLoading";
+import Keys from "./components/Keys";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
       </CounterProvider> */}
       {/* <ForwardRef /> */}
       {/* <ImageLoading /> */}
+      {/* <Keys /> */}
     </>
   );
 }
